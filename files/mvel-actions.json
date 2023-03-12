@@ -2,13 +2,13 @@
     {
         "title": "Reboot",
         "description": "Reboot your device immediately",
-        "expression": "context.getSystemService(\"power\").reboot(null);",
+        "expression": "context.getSystemService('power').reboot(null);",
         "icon": "RestartAlt"
     },
     {
         "title": "Lock screen",
         "description": "Turn off you screen",
-        "expression": "context.getSystemService(\"power\").goToSleep(android.os.SystemClock.uptimeMillis() + 50);",
+        "expression": "context.getSystemService('power').goToSleep(android.os.SystemClock.uptimeMillis() + 50);",
         "icon": "Lock"
     }
 ]
