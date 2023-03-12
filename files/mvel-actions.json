@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "title": "Title",
+        "description": "Desc",
+        "expression": "context.string()",
+        "icon": "settings"
+    }
+]
